@@ -13,19 +13,16 @@
 //@import '_elements.scss';
 
 // Блоки
-@import 'blocks/about-game.scss';
-@import 'blocks/black-bg.scss';
-@import 'blocks/process.scss';
+@import 'blocks/courses.scss';
 @import 'blocks/footer.scss';
-@import 'blocks/game.scss';
 @import 'blocks/header.scss';
-@import 'blocks/popup-buy.scss';
-@import 'blocks/popup-delivery-payment.scss';
+@import 'blocks/logo.scss';
+@import 'blocks/offer.scss';
 @import 'blocks/video.scss';
 
 // Страницы
 @import 'pages/all-pages.scss';
 
 // Библиотеки
-@import 'libs/jquery-ui.scss';
-@import 'libs/swiper.min.scss';
+@import 'libs/bootstrap.scss';
+@import 'libs/bootstrap-responsive.scss';

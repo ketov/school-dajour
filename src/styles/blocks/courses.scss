@@ -1,0 +1,103 @@
+.courses{
+    padding: 80px 0 0;
+    h3{
+        max-width: 800px;
+    }
+    h4{
+        margin: 0;
+    }
+    .type{
+        background: black;
+        border-radius: 32px;
+        color: #fff;
+        display: table;
+        padding: 3px 11px 3px 11px;
+    }
+    button{
+        margin: 0 auto;
+    }
+    .big-p{
+        margin: 80px 0; 
+        text-align: center;
+    }
+    &__course{
+        border-radius: 3px;
+        margin: 50px 0 0 0;
+        padding: 30px 2.5% 20px;
+        &--browmaster{
+            background: #efe5df;
+        }
+        &--bio{
+            background: #e9efda;
+        }
+        &--triding{
+            background: #ececec;
+        }
+        &--light{
+            background: #fcdec8;
+        }
+        &--lam{
+            background: #fcf3e7;
+        }
+        &--botoks{
+            background: #d3f4ff;
+        }
+    }
+    &__block{
+        background-repeat: no-repeat;
+        background-size: 40px;
+        margin-left: 0!important;
+        padding: 15px 4% 0 58px;
+        &--browmaster1{
+            background-image: url(../img/browmaster-1.svg);
+        }
+        &--browmaster2{
+            background-image: url(../img/browmaster-2.svg);
+        }
+        &--browmaster3{
+            background-image: url(../img/browmaster-3.svg);
+        }
+        &--browmaster4{
+            background-image: url(../img/browmaster-4.svg);
+        }
+        &--browmaster5{
+            background-image: url(../img/browmaster-5.svg);
+        }
+        &--bio1{
+            background-image: url(../img/bio-1.svg);
+        }
+        &--bio2{
+            background-image: url(../img/bio-2.svg);
+        }
+    }
+    &__row{
+        margin: 40px 0 0 0;
+    }
+    &__show{
+        cursor: pointer;
+        display: table;
+        margin: 10px 0 0 0;
+        &:hover .courses__show-img{
+            top: 5px;
+        }
+        &:hover .courses__show-text{
+            border-bottom: none;
+        }
+    }
+    &__show-text{
+        border-bottom: 1px dotted $red;
+        color: $red;
+    }
+    &__show-img{
+        left: 5px;
+        position: relative;
+        top: 0;
+        transition: 0.2s;
+        width: 10px;
+    }
+    &__line{
+        background: $black;
+        height: 1px;
+        margin: 100px 0 20px 0;
+    }
+}

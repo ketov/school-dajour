@@ -7,18 +7,9 @@ html{
 }
 
 body{
-    color: #ffffff;
-    font-family: pfDinDisplayProRegular, Arial, Verdana, sans-serif;
+    font-family: $CR;
+    font-size: 110%;
     margin: 0;
-    padding: 0;
-    width: 100%;
-
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#69c5f6+0,abe2ff+100 */
-    background: rgb(105,197,246); /* Old browsers */
-    background: -moz-linear-gradient(left,  rgba(105,197,246,1) 0%, rgba(171,226,255,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(105,197,246,1) 0%,rgba(171,226,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(105,197,246,1) 0%,rgba(171,226,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69c5f6', endColorstr='#abe2ff',GradientType=1 ); /* IE6-9 */
 }
 
 .clear{
@@ -31,9 +22,9 @@ body{
 
 .wrapper{
     margin: 0 auto;
-    max-width: 1172px;
-    padding: 0 4%;
-    width: 92%;
+    max-width: 1400px;
+    padding: 0 2%;
+    width: 96%;
 }
 
 .table-cell{
@@ -42,64 +33,102 @@ body{
 }
 
 @font-face{
-    font-family: pfDinDisplayProRegular;
-    src: url('../fonts/pfdindisplaypro-reg.ttf');
+    font-family: CirceRegular;
+    src: url('../fonts/Circe-Regular.ttf');
 }
 
 @font-face{
-    font-family: pfDinDisplayProMedium;
-    src: url('../fonts/pfdindisplaypro-medium.ttf');
+    font-family: CirceBold;
+    src: url('../fonts/Circe-Bold.ttf');
 }
 
 @font-face{
-    font-family: pfDinDisplayProBlack;
-    src: url('../fonts/pfdindisplaypro-black.ttf');
+    font-family: PlayfairDisplayRegular;
+    src: url('../fonts/Playfair-Display.ttf');
+}
+
+a{
+    border-bottom: 1px solid $red;
 }
 
 h1{
-    font-family: pfDinDisplayProBlack;
-    font-size: 320%;
+    font-family: $PfdR;
+    font-size: 410%;
+    font-weight: normal;
+    line-height: 120%;
     margin: 0;
 }
 
-p{
-    font-size: 130%;
-    line-height: 155%;
-    margin: 24px 0 0 0;
-}
-
-.buy{
-    background: #ffd571;
-    border: none;
-    border-radius: 48px;
-    color: #fff;
-    cursor: pointer;
-    font-family: pfDinDisplayProMedium;
-    font-size: 125%;
-    outline: none;
-    padding: 20px 41px 20px;
+h2{
+    font-family: $PfdR;
+    font-size: 340%;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 0;
     text-align: center;
-    transition: 0.2s;
 }
 
-.fixed-menu-container{
-    position: relative;
+h3{
+    font-family: $PfdR;
+    font-size: 215%;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 20px 0 0 0;
+}
+
+h4{
+    font-family: $PfdR;
+    font-size: 140%;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 0;
+}
+
+button{
+    background: $red;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-family: $CB;    
+    outline: none;
+    padding: 14px 29px 15px;
+    top: 0;
+    transition: 0.25s;
+    &:hover{
+        background: rgba(252, 0, 60, 1);
+    }
+    &:active{
+        position:relative;
+        top: 2px;
+    }
+}
+
+.comment{
+    font-size: 145%;
+    margin: 25px 0 40px;
+    text-align: center;
+}
+
+.big-p{
+    font-size: 200%;
+    line-height: 140%;
+    margin: 0;
 }
 
 @media(max-width: 600px){
     h1{
-        font-size: 270%;
+        /* font-size: 270%; */
     }
 }
 
 @media(max-width: 400px){
     h1{
-        font-size: 230%;
+        /* font-size: 230%; */
     }
 }
 
 @media(max-width: 300px){
     h1{
-        font-size: 200%;
+        /* font-size: 200%; */
     }
 }
