@@ -1,0 +1,123 @@
+.about-game{
+    padding: 46px 0 66px 0;
+    .info{
+        float: left;
+        margin: 57px 3% 0 0;
+        width: 62%;
+    }
+    h1{
+        font-size: 235%;
+    }
+    p{
+        font-size: 100%;
+        margin: 30px 0 0;
+        max-width: 525px;
+    }
+    &__col{
+        float: left;
+        width: 33%;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        .mobile{
+            display: none;
+        }
+        .text{
+            margin: 18px 0 0 0;
+            text-align: center;
+        }
+        .container{
+            display: table;
+        }
+        &--2{
+            .container{
+                margin: 0 auto;
+            }
+        }
+        &--3{
+            .container{
+                float: right;
+            }
+        }
+    }
+    .row{
+        margin: 49px 0 0 0;
+        max-width: 468px;
+    }
+}
+
+@media(max-width: 1270px){
+    .about-game{
+        .info{
+            margin: 19px 6% 0 0;
+        }
+        .image{
+            float: left;
+            width: 30%;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width: 900px){
+    .about-game{
+        padding: 46px 0 130px;
+        p{
+            max-width: 100%; 
+        }
+        .info{
+            width: 94%;
+        }
+        .image{
+            margin-top: 40px;
+            width: 94%; 
+        }
+        .row{
+            max-width: 100%; 
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .about-game{
+        padding: 0 0 55px;
+        h1{
+            font-size: 170%;
+            text-align: left;
+        }
+        .info{
+            margin: 12px 6% 0 0;
+            p{
+                font-size: 100%;
+                margin: 8px 0 0;
+            }
+        }
+        &__col{
+            .desktop{
+                display: none;
+            }
+            .mobile{
+                display: block;
+                height: 36px;
+                margin-left: 0;
+            }
+        }
+        .row{
+            margin: 21px 0 0;
+        }
+        .image{
+            img{
+                display: table;
+                margin: 0 auto;
+                max-width: 60%;
+            }
+        }
+    }
+}
+
+@media(max-width: 450px){ 
+
+}

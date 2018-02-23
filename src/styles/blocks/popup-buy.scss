@@ -1,0 +1,141 @@
+.popup-buy{
+    background: #fff;
+    border-radius: 10px;
+    color: #000;
+    display: none;
+    left: 50%;
+    margin-left: -385px;
+    position: absolute;
+    z-index: 13;
+    padding: 33px 39px 50px 40px;
+    width: 691px;
+    h3{
+        font-family: pfDinDisplayProBlack;
+        font-size: 235%;
+        margin: 0;
+        text-align: center;
+    }
+    input{
+        display: block;
+        width: 660px;
+        border: 1px solid #dadada;
+        border-radius: 10px;
+        font-family: pfDinDisplayProRegular;
+        font-size: 100%;
+        margin: 11px 0 0;
+        outline: none;
+        padding: 13px 14px 13px 15px;
+    }
+    label{
+        display: block;
+        font-size: 100%;
+        margin: 12px 0 0 0;
+    }
+    button{
+        background: #ffd572;
+        border: none;
+        border-radius: 45px;
+        color: #fff;
+        cursor: pointer;
+        font-family: pfDinDisplayProRegular;
+        font-size: 100%;
+        margin: 24px 0 0 0;
+        outline: none;
+        padding: 17px 35px 20px;
+    }
+}
+
+.popup-buy input::-webkit-input-placeholder{
+    color: #b5b5b5;
+    font-family: pfDinDisplayProRegular;
+}
+
+.popup-buy input:-moz-placeholder{
+    color: #b5b5b5;
+    font-family: pfDinDisplayProRegular;
+}
+.popup-buy input:-ms-input-placeholder{
+    color: #b5b5b5;
+    font-family: pfDinDisplayProRegular;
+}
+
+#buy-input-games{
+    width: 129px;
+}
+
+#close-popup-buy{
+    border: 1px solid #ffd572;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    height: 29px;
+    right: 25px;
+    top: 43px;    
+    transition: 0.2s;
+    width: 29px;
+    &:hover{
+        background: #ffd572;
+    }
+    &:hover .close-popup-buy__line{
+        background: #fff;
+    }
+}
+
+.close-popup-buy__line{
+    background: #000;
+    height: 2px;
+    left: 7px;
+    position: absolute;
+    top: 14px;
+    transition: .2s;
+    width: 15px;
+    &--1{
+        transform: rotate(45deg);
+    }
+    &--2{
+        transform: rotate(-45deg);
+    }
+}
+
+@media(max-width: 850px){
+    .popup-buy{
+        left: 5%;
+        margin-left: 0;
+        padding: 35px 4% 35px 4%;
+        width: 82%;
+        input{
+            width: 90%;
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .popup-buy{
+        h3{
+            font-size: 195%;
+            text-align: left;
+        }
+        #close-popup-buy{
+            top: 38px;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .popup-buy{
+        input{
+            width: 85%;
+        }
+        h3{
+            max-width: 200px;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .popup-buy{
+        input{
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+
+// Bootstrap
+//@import "_bootstrap.scss";
+
+// Owl-carousel
+//@import "../../bower_components/owl.carousel/dist/assets/owl.carousel.css";
+
+@import '_variables.scss';
+
+@import '_main.scss';
+
+// Элементы(кнопки, формы и т. д.)
+//@import '_elements.scss';
+
+// Блоки
+@import 'blocks/about-game.scss';
+@import 'blocks/black-bg.scss';
+@import 'blocks/process.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/game.scss';
+@import 'blocks/header.scss';
+@import 'blocks/popup-buy.scss';
+@import 'blocks/popup-delivery-payment.scss';
+@import 'blocks/video.scss';
+
+// Страницы
+@import 'pages/all-pages.scss';
+
+// Библиотеки
+@import 'libs/jquery-ui.scss';
+@import 'libs/swiper.min.scss';
