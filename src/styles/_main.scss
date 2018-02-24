@@ -73,7 +73,7 @@ h3{
     font-size: 215%;
     font-weight: normal;
     line-height: 120%;
-    margin: 20px 0 0 0;
+    margin: 45px 0 0 0;
 }
 
 h4{
@@ -84,12 +84,36 @@ h4{
     margin: 0;
 }
 
+p{
+    margin: 24px 0 0 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    li{
+        background-image: url(../img/for-list.svg);
+        background-position: 0px 11px;
+        background-repeat: no-repeat;
+        background-size: 18px;
+        margin: 20px 0 0 0;
+        padding: 0 0 0 26px;
+    }
+}
+
+.ul-show{
+    display: none;
+}
+
 button{
     background: $red;
     border: none;
     border-radius: 3px;
     color: #fff;
-    font-family: $CB;    
+    cursor: pointer;
+    font-family: $CB;   
+    font-size: 100%;
     outline: none;
     padding: 14px 29px 15px;
     top: 0;

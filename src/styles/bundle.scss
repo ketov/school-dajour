@@ -13,11 +13,16 @@
 //@import '_elements.scss';
 
 // Блоки
+@import 'blocks/author.scss';
 @import 'blocks/courses.scss';
+@import 'blocks/economy.scss';
 @import 'blocks/footer.scss';
+@import 'blocks/for.scss';
+@import 'blocks/form.scss';
 @import 'blocks/header.scss';
 @import 'blocks/logo.scss';
 @import 'blocks/offer.scss';
+@import 'blocks/reviews.scss';
 @import 'blocks/video.scss';
 
 // Страницы

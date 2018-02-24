@@ -1,0 +1,70 @@
+.form{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3a00ff+0,b000ff+100 */
+    background: #3a00ff; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #3a00ff 0%, #b000ff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #3a00ff 0%,#b000ff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #3a00ff 0%,#b000ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a00ff', endColorstr='#b000ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    color: #fff;
+    padding: 80px 0;
+
+    .comment{
+        margin: 25px 0 20px;
+    }
+    input{
+        border: none;
+        border-radius: 3px;        
+        font-family: $CR;
+        font-size: 115%;
+        margin: 35px 0 0 0;
+        outline: none;
+        padding: 20px 0 21px 3%;
+        width: 97%;
+    }
+    button{
+        font-size: 120%;
+        margin: 35px 0 0 0;
+        padding: 18px 0;
+        width: 100%;
+    }
+}
+
+#agree{
+    border: none;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+#label-for-agree{
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: 33px 0 0 9px;
+    a{
+        color: $white;
+        transition: 0.2s;
+        &:hover{               
+            color: $red;
+        }
+    }
+}
+
+::-webkit-input-placeholder {
+    color: #828282;
+    font-family: $CR;
+}
+::-moz-placeholder {
+    color: #828282;
+    font-family: $CR;
+}
+:-moz-placeholder {
+    color: #828282;
+    font-family: $CR;
+}
+:-ms-input-placeholder {
+    color: #828282;
+    font-family: $CR;
+}

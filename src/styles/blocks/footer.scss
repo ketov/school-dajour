@@ -1,3 +1,27 @@
 footer{
-
+    background: $black;
+    color: $white;
+    font-size: 90%;
+    padding: 24px 0;
+    a{
+        color: $white;
+        transition: 0.2s;
+        &:hover{               
+            color: $red;
+        }
+    }
+    .phone{
+        text-align: right;
+        a{
+            border-bottom: none;
+            font-size: 200%;
+            line-height: 140%;
+            &:hover{
+                color: $white;
+            }
+            span{
+                font-size: 60%;
+            }
+        }
+    }
 }

@@ -1,0 +1,43 @@
+.reviews{
+    background: $gray;
+    padding: 80px 0 20px 0;
+    h2{
+        margin: 0 0 60px 0;
+        text-align: center;
+    }
+    img{
+        display: block;
+        margin: 0 0 35px 0;
+    }
+    p{
+        margin: 10px 0 0 0;
+    }
+    a{
+        color: $black;
+        margin: 0 0 0 31px;
+        position: relative;
+        transition: 0.2s;
+        &:hover{               
+            color: $red;
+        }
+        &:before{
+            background-image: url(../img/vk.svg);
+            background-repeat: no-repeat;
+            content: '';
+            height: 14px;
+            left: -29px;
+            position: absolute;
+            top: 5px;
+            width: 21px;
+        }
+    }
+    .span4{
+        padding: 0 25px 0 0;
+    }
+    .text{
+        margin: 0 0 20px 0;
+    }
+    .row-fluid{
+        padding: 0 0 70px 0;
+    }
+}

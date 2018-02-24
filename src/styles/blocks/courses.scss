@@ -1,6 +1,13 @@
 .courses{
     padding: 80px 0 0;
+    .row-fluid{
+        display: flex;
+    }
+    p{
+        margin: 15px 0 0 0;
+    }
     h3{
+        margin: 24px 0 0;
         max-width: 800px;
     }
     h4{
@@ -20,10 +27,23 @@
         margin: 80px 0; 
         text-align: center;
     }
+    .span6 h3{
+        max-width: 530px;
+    }
+    .span6 p{
+        max-width: 590px;        
+    }
+    .bottom{
+        left: 5%;
+        bottom: 22px;
+        position: absolute;
+        width: 90%;
+    }
     &__course{
         border-radius: 3px;
         margin: 50px 0 0 0;
-        padding: 30px 2.5% 20px;
+        padding: 30px 2.5% 200px;
+        position: relative;
         &--browmaster{
             background: #efe5df;
         }
@@ -84,6 +104,14 @@
             border-bottom: none;
         }
     }
+    &__show.active{
+        img{
+            transform: rotate(-180deg);
+        }
+        &:hover .courses__show-img{
+            top: -5px;
+        }
+    }
     &__show-text{
         border-bottom: 1px dotted $red;
         color: $red;
@@ -98,6 +126,6 @@
     &__line{
         background: $black;
         height: 1px;
-        margin: 100px 0 20px 0;
+        margin: 0 0 20px 0;
     }
 }
