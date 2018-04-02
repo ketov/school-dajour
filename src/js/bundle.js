@@ -28,12 +28,8 @@ import "script!./libs/jquery.simple-scroll-follow.min.js";
 
 // Собственный js
 import "./main";
+import "./blocks/form";
 import "./blocks/header";
-import "./blocks/slider";
-import "./blocks/projects-slider";
-import "./blocks/popup-buy";
-import "./blocks/popup-delivery-payment";
-import "./blocks/video";
 
 import "./pages/about-company";
 import "./pages/contacts";

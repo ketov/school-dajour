@@ -9,3 +9,33 @@
         margin: 10px 0 0 0;
     }
 }
+
+@media(max-width: 1050px){
+    .for{
+        padding: 60px 0;
+        h2{
+            margin: 0 0 40px 0;
+        }
+    }
+}
+
+@media(max-width: 850px){
+    .for{
+        padding: 40px 0;
+        h2{
+            margin: 0 0 20px 0;
+        }
+    }
+}
+
+@media(max-width: 767px){
+    .for .span3{
+        margin-bottom: 20px;  
+    }
+}
+
+@media(max-width: 500px){
+    .for{
+        padding: 25px 0 15px;        
+    }
+}

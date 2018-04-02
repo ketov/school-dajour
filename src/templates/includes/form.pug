@@ -3,19 +3,18 @@ section.form
         div.row-fluid.show-grid
             div.span6.offset3
                 h2 Заявка на обучение
-                p.comment 
-                    | Оставьте вашу эл. почту. Мы свяжемся с вами,
-                    br 
-                    | чтобы уточнить детали и оформить заявку.
+                p.comment Оставьте вашу эл.&nbsp;почту. Мы свяжемся с&nbsp;вами, чтобы&nbsp;уточнить детали и&nbsp;оформить заявку.
                     
                 input#input-name(type="text" placeholder="Как вас зовут?")
-                input#input-email(type="text" placeholder="Электронная почта")
+                input#input-email(type="text" placeholder="Электронная почта")                
+                div#form__error
                 input#input-course(type="text" placeholder="Какой курс вас интересует?")
-                input#agree(type="checkbox" checked) 
-                label#label-for-agree(for="agree") 
-                    | Согласен с 
-                    a(href="#") условиями передачи данных
+                div#form__success
+                <!--input#agree(type="checkbox" checked) -->
+                <!-- label#label-for-agree(for="agree") 
+                     | Согласен с 
+                     a(href="#") условиями передачи данных-->
                 div.clear
-                button Отправить!
+                button#form-button Отправить!
 
         

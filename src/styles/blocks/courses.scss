@@ -39,6 +39,13 @@
         position: absolute;
         width: 90%;
     }
+    &__b{
+        font-family: $CB;
+    }
+    &__comment{
+        line-height: 160%;
+        margin: 7px 0 0 0 !important;
+    }
     &__course{
         border-radius: 3px;
         margin: 50px 0 0 0;
@@ -46,9 +53,17 @@
         position: relative;
         &--browmaster{
             background: #efe5df;
+            .bottom{
+                left: 2.5%;
+                width: 95%;
+            }
         }
         &--bio{
             background: #e9efda;
+            .bottom{
+                left: 2.5%;
+                width: 95%;
+            }
         }
         &--triding{
             background: #ececec;
@@ -127,5 +142,56 @@
         background: $black;
         height: 1px;
         margin: 0 0 20px 0;
+    }
+}
+
+@media(max-width: 1050px){
+    .courses{
+        padding: 60px 0 0 0;
+        .big-p{
+            margin: 60px 0; 
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width: 850px){
+    .courses{
+        padding: 40px 0 0 0;
+        &__course{
+            margin: 25px 0 0;
+            padding: 30px 2.5% 130px;
+        }
+        .big-p{
+            margin: 40px 0;
+        }
+    }
+}
+
+@media(max-width: 767px){
+    .courses{
+        .row-fluid{
+            display: block;
+        }
+        .bottom{
+            left: 3%;
+            width: 94%;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .courses{
+        &__block{
+            background: none !important;
+            margin: 10px 0 0 0;
+            padding: 15px 4% 0 0px;
+        }
+        &__row{
+            margin: 0;
+        }
+        .big-p{
+            margin: 25px 0;
+        }
     }
 }

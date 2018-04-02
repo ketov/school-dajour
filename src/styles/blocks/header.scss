@@ -13,3 +13,53 @@ header{
         }
     }
 }
+
+@media(max-width: 1400px){
+    header{
+        nav{
+            a{
+                margin: 0 2.5%;
+            }
+        }
+    }
+}
+
+@media(max-width: 1250px){
+    header{
+        nav{
+            a{
+                margin: 0 2%;
+            }
+        }
+    }
+}
+
+@media(max-width: 1150px){
+    .header{
+        &__economy{
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 850px){
+    .header{
+        &__video{
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 650px){
+    .header{
+        &__author{
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    header{
+        display: none !important;
+    }
+}

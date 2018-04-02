@@ -17,14 +17,14 @@
         border-radius: 3px;        
         font-family: $CR;
         font-size: 115%;
-        margin: 35px 0 0 0;
+        margin: 0 0 35px 0;
         outline: none;
         padding: 20px 0 21px 3%;
         width: 97%;
     }
     button{
         font-size: 120%;
-        margin: 35px 0 0 0;
+        margin: 0 0 0 0;
         padding: 18px 0;
         width: 100%;
     }
@@ -52,6 +52,18 @@
     }
 }
 
+#form__error{
+    line-height: 125%;
+}
+
+#form__success{
+    line-height: 125%;
+}
+
+#input-email.error{
+    background: #ffdce3;
+}
+
 ::-webkit-input-placeholder {
     color: #828282;
     font-family: $CR;
@@ -67,4 +79,38 @@
 :-ms-input-placeholder {
     color: #828282;
     font-family: $CR;
+}
+
+@media(max-width: 1050px){
+    .form{
+        padding: 60px 0;
+    }
+}
+
+@media(max-width: 850px){
+    .form{
+        padding: 40px 0;
+        .comment{
+            margin: 10px 0 0;
+        }
+        input{
+            font-size: 100%;
+            margin: 18px 0 0;
+            padding: 11px 0 12px 3%;
+        }
+        button{
+            margin: 18px 0 0;
+            padding: 10px 0;
+        }
+    }
+    #label-for-agree {
+        margin: 15px 0 0 9px;
+    }
+}
+
+@media(max-width: 767px){
+    .form{
+        padding: 25px 0 35px;
+
+    }
 }

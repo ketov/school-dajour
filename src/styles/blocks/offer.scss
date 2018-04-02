@@ -7,3 +7,21 @@
     padding: 180px 0 200px;
     text-align: center;
 }
+
+@media(max-width: 1050px){
+    .offer{        
+        padding: 150px 0 170px;
+    }
+}
+
+@media(max-width: 850px){
+    .offer {
+        padding: 110px 0 135px;
+    }
+}
+
+@media(max-width: 500px){
+    .offer{
+        padding: 55px 0 70px;
+    }
+}

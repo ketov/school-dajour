@@ -104,6 +104,9 @@ ul{
 
 .ul-show{
     display: none;
+    &--no-bg{
+        background: none;
+    }
 }
 
 button{
@@ -139,20 +142,67 @@ button{
     margin: 0;
 }
 
-@media(max-width: 600px){
+@media(max-width: 1050px){
     h1{
-        /* font-size: 270%; */
+        font-size: 340%;
+    }
+    .big-p{
+        font-size: 160%;
+        line-height: 140%;
+    }
+    .comment{
+        font-size: 120%;
+    }
+}
+
+@media(max-width: 850px){
+    h1 {
+        font-size: 280%;
+    }
+    h2{
+        font-size: 215%;
+        line-height: 120%;
+    }
+    h3{
+        font-size: 160%;
+        line-height: 120%;
+    }
+    h4{
+        font-size: 120%;
+        line-height: 120%;
+    }
+    .big-p{
+        font-size: 140%;
+    }
+    ul{
+        li{
+            margin: 12px 0 0 0;
+        }
+    }
+    p {
+        margin: 16px 0 0;
+    }
+}
+
+@media(max-width: 767px){
+    .comment{
+        font-size: 100%;
+        margin: 15px 0 25px;
     }
 }
 
 @media(max-width: 400px){
     h1{
-        /* font-size: 230%; */
+        font-size: 200%;
     }
-}
-
-@media(max-width: 300px){
-    h1{
-        /* font-size: 200%; */
+    h2{
+        font-size: 180%;
+        line-height: 120%;
+    }
+    h3{
+        font-size: 160%;
+    }
+    h4{
+        font-size: 120%;
     }
 }

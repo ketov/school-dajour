@@ -2,13 +2,16 @@ footer{
     background: $black;
     color: $white;
     font-size: 90%;
-    padding: 24px 0;
+    padding: 24px 0 16px;
     a{
         color: $white;
         transition: 0.2s;
         &:hover{               
             color: $red;
         }
+    }
+    .span3, .span2{
+        padding: 9px 0 0 0;
     }
     .phone{
         text-align: right;
@@ -22,6 +25,19 @@ footer{
             span{
                 font-size: 60%;
             }
+        }
+    }
+}
+
+@media(max-width: 767px){
+    footer{
+        padding: 16px 0 8px;
+        .phone{
+            margin: 5px 0 0 0;
+            text-align: left;
+        }
+        .span3, .span2{
+            padding: 3px 0 0;
         }
     }
 }
